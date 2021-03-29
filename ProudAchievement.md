@@ -1,4 +1,4 @@
-#My proudest achievement 
+# My proudest achievement 
 
 Last year I was put into a project with Swisscom which I had to work on the whole by myself from requirements, design, implementation, test and delivery.
 There was no one to even brainstorm about the algorithms except for the client. 
