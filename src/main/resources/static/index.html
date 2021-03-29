@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
+<script src="js/customer-invite.js"></script>
+<head>
+    <meta charset="utf-8">
+    <title>Spring Boot - Angular Application</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+</head>
+<body ng-app="customer-invite">
+<div class="container">
+    <div ng-controller="CustomerController">
+        <div class="container">
+
+            <h2>Customers within 100kms</h2>
+            <br/>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Distance</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr ng-repeat="customer in customers">
+                    <td>{{ customer.userId }}</td>
+                    <td>{{ customer.userName }}</td>
+                    <td>{{ customer.distance }}</td>
+                </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
