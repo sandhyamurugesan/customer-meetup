@@ -80,11 +80,11 @@ userId=39, userName='Lisa Ahearn', distance=38.36Km
 ```
 
 # What can be improved here:
-* Layer Front end into component, controller, service, models
-* Add User input for the changing the distance range
-* Sorting option in table
-* Add Tests for RESTClient calls
-* Add Authorization and authentication for restapis for addition of mutliple cities other than dublin.
+* Layer Front end into component, controller, service, models.
+* Add User input for changing the distance range.
+* Sorting option in table.
+* Add Tests for RESTClient calls.
+* Add Authorization and authentication for restApis for addition of mutliple cities other than Dublin.
 
 ## Author:
 Sakuntala Murugesan
